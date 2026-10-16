@@ -345,7 +345,7 @@ apply_rules <- function(df, rules) {
 }
 
 ## ============================================================================
-##  Bio-Plex BAMA Dashboard  (styled after the NAb Assay Dashboard)
+##  VISC-wrangling  (styled after the NAb Assay Dashboard)
 ##  Upload Bio-Plex RAW .xlsx files -> pick analyte prefix -> Run -> export table
 ## ============================================================================
 suppressMessages({
@@ -431,7 +431,7 @@ ui <- dashboardPage(
   skin = "blue",
 
   dashboardHeader(
-    title = tags$span(logo_tag, "Bio-Plex BAMA Dashboard"),
+    title = tags$span(logo_tag, "VISC-wrangling"),
     titleWidth = 340
   ),
 
