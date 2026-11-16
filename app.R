@@ -9,8 +9,8 @@ suppressMessages({
   library(dplyr)
   library(tidyr)
   library(stringr)
-  library(duckdb)
-  library(DBI)
+#  library(duckdb)
+#  library(DBI)
 })
 
 #source("lib/db_schema.R")
